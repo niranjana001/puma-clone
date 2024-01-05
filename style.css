@@ -1,0 +1,560 @@
+.navigation {
+    background-color: black;
+    color: white;
+    display: flex;
+    position: sticky;
+    padding-top: 10px;
+    z-index: 999;
+    width: 100hw;
+}
+
+i:hover{
+    color: red;
+}
+
+
+body{
+    max-width: 100hw;
+}
+
+.width100 {
+    width: 100hw;
+}
+
+h2 {
+    padding-top: 10px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 1.5rem;
+
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+footer h4 {
+    font-size: 1.5rem;
+    font-weight: 300rem;
+}
+
+
+.dropdown-content {
+    display: none;
+}
+
+.dropdown-toggle {
+    cursor: pointer;
+}
+
+.dropdown-toggle:hover {
+    color: rgb(210, 210, 210);
+    /* Add styling for the hover effect if needed */
+}
+
+.margin {
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.no-scroll {
+    overflow: hidden;
+}
+
+.nav-light {
+    background-color: white;
+    color: black;
+}
+
+.invert-image {
+    filter: invert(100%);
+}
+
+.nav-left li {
+    color: white;
+    background-color: black;
+}
+
+.custom-size {
+    font-size: 1.3em;
+    /* Adjust this value to your preferred size */
+    padding: 2px;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.top-div {
+    background-color: rgb(166, 113, 27);
+    justify-content: center;
+    color: white;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.div-child img {
+    display: none;
+}
+
+
+.div1 {
+    background-image: url(./images/1.jpg);
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-size: cover;
+    padding: 200px 0 200px 0;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.hide {
+    display: none;
+}
+
+.div2 {
+    background-image: url(./images/2.jpg);
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-size: cover;
+    padding: 200px 0 200px 0;
+}
+
+
+.div3 {
+    background-image: url(./images/3.jpg);
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-size: cover;
+    padding: 200px 0 200px 0;
+}
+
+.div4 {
+    background-image: url(./images/4.jpg);
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-size: cover;
+    padding: 200px 0 200px 0;
+}
+
+.div5 {
+    background-image: url(./images/5.jpg);
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-size: cover;
+    padding: 200px 0 200px 0;
+}
+
+.div6 {
+    background-image: url(./images/6.jpg);
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-size: cover;
+    padding: 200px 0 200px 0;
+}
+
+
+
+.div-child {
+    text-align: center;
+    padding-right: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gallery {
+    text-align: center;
+}
+
+
+.new-year {
+    background-color: rgb(236, 236, 236);
+    text-align: center;
+    padding: 10px;
+}
+
+.trending>h1 {
+    text-align: center;
+}
+
+.categories {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    border: 1px solid orange;
+    padding: 10px;
+}
+
+.sneaker {
+    background-image: url(./images/sneaker.jpeg);
+}
+
+.running {
+    background-image: url(./images/running.jpeg);
+}
+
+.winterwear {
+    background-image: url(./images/running.jpeg);
+}
+
+.motorsport {
+    background-image: url(./images/motorsport.jpeg);
+}
+
+.tshirt {
+    background-image: url(./images/tshirt.jpeg);
+}
+
+a:hover {
+    border-bottom: 1px solid orange;
+}
+
+.icons{
+    display: flex;
+    gap: 10px;
+}
+
+li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+    padding-right: 10px;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right>* {
+    padding: 5px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.support {
+    width: 50%;
+}
+
+.about {
+    width: 25%;
+}
+
+.socials {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-icon {
+    display: flex;
+    gap: 10px;
+}
+
+.img-icon>div {
+    border-radius: 5px;
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    background-size: 180%;
+    background-position: center;
+}
+
+.app {
+    background-image: url(/images/app.png);
+}
+
+.trac {
+    background-image: url(/images/trac.png);
+}
+
+
+footer {
+    background-color: black;
+    padding: 20px;
+}
+
+.menu-mob-div {
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+
+}
+
+.menu-mob-div a {
+    color: black;
+    font-size: 1rem;
+    display: block;
+    margin: auto;
+    text-align: left;
+}
+
+.menu-mob-div li {
+    color: rgb(139, 138, 138);
+    border-bottom: 1px solid black;
+    display: block;
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+
+ul {
+    padding: 0;
+}
+
+footer h4 {
+    color: white;
+}
+
+footer>div>li>a {
+    color: grey;
+}
+
+
+/* Media query for tablet and mobile view */
+@media screen and (max-width: 1024px) {
+
+    /* Show the toggle button */
+    .menu-toggle {
+        display: block;
+        cursor: pointer;
+    }
+
+    /* Show menu items when active */
+    .menu-items.active {
+        display: block;
+    }
+
+    /* Hide the menu items for larger screens */
+    .menu-items {
+        display: none;
+    }
+}
+
+
+/* Mobile Styles */
+/* (Assuming default mobile styles) */
+
+/* Tablet Styles (e.g., 768px) */
+@media (max-width: 1024px) {
+    nav {
+        display: flex;
+        background-color: black;
+        color: white;
+        overflow: hidden;
+        margin: 0 auto;
+        position: sticky;
+        top: 0;
+        padding-top: 10px;
+        z-index: 999;
+        width: 100hw;
+    }
+
+
+    .menu-toggle,
+    .hidden {
+        display: block;
+        visibility: visible;
+    }
+
+
+
+    .search-hide {
+        display: none;
+    }
+
+    .support,
+    .about,
+    .stay-up-todate,
+    .explore {
+        width: 50%;
+    }
+
+    .about {
+        margin-top: 20px;
+    }
+
+    .socials {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .img-icon>div {
+        width: 40px;
+        height: 40px;
+    }
+
+    .div-child {
+        padding: 0;
+    }
+
+    .div-child img {
+        display: block;
+        width: 100%;
+        padding: 0;
+    }
+
+    .mob-res-ban {
+        background-image: none;
+        color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .button-container {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .circle {
+        flex: 0 0 auto;
+        padding-left: 25px;
+    }
+
+    .img-icon {
+        display: flex;
+        gap: 10px;
+        width: 100%;
+        justify-content: center;
+    }
+
+
+    .img-icon:hover{
+
+    }
+    .gallery {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    footer>*{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .categories {
+        padding-left: 100px;
+        width: 95%;
+        gap: 10px;
+        display: flex;
+        overflow-x: auto;
+        /* Allow horizontal overflow */
+        white-space: nowrap;
+        /* Keep the items in a single line */
+    }
+
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .footer-bottom{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .stay-up-todate,.explore{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+
+    }
+}
+
+/* Desktop Styles (e.g., 1200px) */
+@media (min-width: 1200px) {
+    .row {
+        flex-direction: row;
+    }
+
+    .support {
+        width: 50%;
+    }
+
+    .about {
+        width: 25%;
+        margin-top: 0;
+    }
+
+    .stay-up-todate,
+    .explore {
+        width: 100%;
+        padding-top: 10%;
+    }
+}
